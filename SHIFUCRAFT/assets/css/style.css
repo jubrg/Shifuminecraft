@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body .menu{
+    display: flex;
+    background-image: url(./../img/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-width: 100%;
+}
+body .menu .logo{
+    display: flex;
+    padding-bottom: 1%;
+    width: 80%;
+    justify-content: center;
+}
+body .menu .signes{
+    display: flex;
+    padding-bottom: 5%;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+body .menu .signes .rock{
+    display: flex;
+    padding-bottom: 5%;
+    width: 23%;
+    height: 50%;
+    justify-content: space-around;
+}
+body .menu .signes .paper{
+    display: flex;
+    padding-bottom: 5%;
+    padding-top: 1%;
+    padding-right: 5%;
+    width: 15%;
+    height: 50%;
+}
+body .menu .signes .cisors{
+    display: flex;
+    padding-bottom: 5%;
+    padding-top: 1%;
+    width: 15%;
+    height: 50%;
+    justify-content: space-around;
+}
+body .menu .button{
+    display: flex;
+    margin-right: 25%;
+    margin-left: 25%;
+    flex-direction: column;
+    align-self: center;
+    width: 40%;
+}
+body .menu .button .play{
+    display: block;
+    border: solid;
+    margin-bottom: 2%;
+    background-color: grey;
+    box-shadow: inset 3px 5px rgba(158, 158, 158), inset -3px -5px rgba(108, 108, 108);
+    font-family: 'minecraft';
+}
+body .menu .button .option{
+    display: block;
+    border: solid;
+    margin-bottom: 2%;
+    background-color: grey;
+    box-shadow: inset 3px 5px rgba(158, 158, 158), inset -3px -5px rgba(108, 108, 108);
+    font-family: 'minecraft';
+}
+body .menu .button .leave{
+    display: block;
+    border:solid;
+    background-color: grey;
+    box-shadow: inset 3px 5px rgba(158, 158, 158), inset -3px -5px rgba(108, 108, 108);
+    margin-bottom: 18%;
+    font-family: 'minecraft';
+}
+body .menu .button .play:hover{
+    box-shadow: inset 3px 5px rgba(1000, 1000, 1000, 0.5);
+    background-color: rgba(112, 143, 196);
+    color: white;
+}
+body .menu .button .option:hover{
+    box-shadow: inset 3px 5px rgba(1000, 1000, 1000, 0.5);
+    background-color: rgba(112, 143, 196);
+    color: white;
+}
+body .menu .button .leave:hover{
+    box-shadow: inset 3px 5px rgba(1000, 1000, 1000, 0.5);
+    background-color: rgba(112, 143, 196);
+    color: white;
+}
+body .menu .button input{
+    display: flex;
+    width: 100%;
+    padding-top: 1%;
+    justify-content: center;
+    font-size: XX-large;
+}
+
+@media (max-width: 896px) {
+    body .menu{
+        display: flex;
+        background-image: url(./../img/fond.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 46.5%;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        border-width: 100%;
+    }
+    body .menu .logo{
+        display: flex;
+        justify-content: center;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        width: 90%;
+    }
+    body .menu .signes{
+        display: flex;
+        padding-bottom: 25%;
+        width: 60%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    body .menu .signes .rock{
+        display: flex;
+        padding-bottom: 16%;
+        padding-top: 12%;
+        width: 140%;
+    }
+    body .menu .signes .paper{
+        display: flex;
+        padding-bottom: 5%;
+        padding-right: 7%;
+        width: 90%;
+        height: 100%;
+    }
+    body .menu .signes .cisors{
+        display: flex;
+        width: 90%;
+        height: 100%;
+    }
+    body .menu .button{
+        width: 80%;
+        padding-bottom: 15%;
+    }
+    body .menu .button .leave{
+        margin-bottom: 0%;
+    }
+}

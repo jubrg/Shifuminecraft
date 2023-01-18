@@ -1,0 +1,151 @@
+body{
+    font-family: 'minecraft';
+    background-image: url('./../img/fond\ pc.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+    font-size: 50px;
+    font-weight: 100;
+}
+.serveur{
+    display: flex;
+    border: 3px solid;
+    border-color: #4C4B49;
+    background-color: black;
+    width: 50vw;
+    margin-left: 50vh;
+    
+}
+.img img{
+    width: 150px;
+    height: 150px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 30vh;
+    font-size: 30px;
+    font-weight: 200;
+}
+.bouton_1 p {
+    display: flex;
+    margin-top: -6.5vh;
+    margin-left: 18vh;
+    font-size: 30px;
+}
+.bouton_2 p {
+    display: flex;
+    margin-top: -6.5vh;
+    margin-left: 18vh;
+    font-size: 30px;
+}
+.bouton_3 p {
+    display: flex;
+    margin-top: -6.5vh;
+    margin-left: 12vh;
+    font-size: 30px;
+}
+.play{
+    display: flex;
+    position: absolute;
+}
+.bouton_1{
+    margin-right: 15vh;
+    margin-left: 4vh;
+}
+.bouton_2{
+    margin-right: 15vh;
+}
+.bouton_1:hover {
+    color: #C9CC86;
+}
+.bouton_2:hover {
+    color: #C9CC86;
+}
+.bouton_3:hover {
+    color: #C9CC86;
+}
+
+@media screen and ( max-width: 896px ) and (min-width: 366px) {
+    body {
+        font-family: 'minecraft';
+        background-image: url(./../img/tutoriels-creer-un-serveur-minecraft-009_0\ 4.png);
+        background-size: cover;
+        background-repeat: no-repeat; 
+        color: white;
+        overflow: hidden;
+        height: 100%;
+        width: 98vw;
+    }
+    h1{
+        text-align: center;
+        font-size: 50px;
+        font-weight: 100;
+    }
+    .play{
+        display: flex;
+        flex-direction: column;
+        width: 95vw;
+    }
+    .serveur{
+        display: flex;
+        border: 3px solid;
+        border-color: #4C4B49;
+        background-color: black;
+        width: 95vw;
+        height: 10vh;
+        margin: 0;
+    }
+    .img img{
+        width: 10vh;
+        height: 10vh;
+    }
+    h2{
+        text-align: center;
+        font-size: 20px;
+        
+    }
+    .h2{
+        width: 90vw;
+    }
+    .bouton_1 {
+        display: flex;
+        margin: 0;
+    }
+    .bouton_2 {
+        display: flex;
+        margin: 0;
+    }
+    .bouton_3 {
+        display: flex;
+        margin: 0;
+    }
+    .bouton_1 p {
+        position: absolute;
+        margin: 0;
+        left: 32vw;
+        top: 2vh;
+    }
+    .bouton_2 p{
+        position: absolute;
+        margin: 0;
+        left: 32vw;
+        top: 9.5vh;
+    }
+    .bouton_3 p{
+        position: absolute;
+        margin: 0;
+        left: 19vw;
+        top: 17vh;
+    }
+    .play{
+        position: absolute;
+    }
+    .play img{
+        width: 95vw;
+    }
+  }
