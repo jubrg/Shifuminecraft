@@ -364,7 +364,7 @@ section {
   }
   .items-Container{
       gap: 10px;
-      left: 15vw;
+      left: 19vw;
       width: 229px;
       top: 3%;
   }
@@ -377,7 +377,7 @@ section {
     top: 8.6px;
   }
   .BoxInfo{
-    display: block;
+    display: none;
     width: 100vw;
     height: 12.5%;
     left: 0;
@@ -411,5 +411,21 @@ section {
     left: calc(50% - 138px / 2 - 9px);
     top: 4px;
     font-size: 16.3517px;
+  }
+  .rightItemHand {
+    top: calc(11% - 30px);
+    left: calc(54% - -37px);
+    width: 40px;
+    height: 40px;
+    display: block;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+  .leftItemHand {
+    top: calc(42% - 30px);
+    left: calc(15% - -37px);
+    width: 40px;
+    height: 40px;
+    display: block;
+    display: block;
   }
 }
