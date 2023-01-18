@@ -4,6 +4,8 @@ let itemOfSkin2 = document.querySelector(".rightItemHand");
 let Skin1 = document.querySelector(".skinleft");
 let Skin2 = document.querySelector(".skinright");
 let isRunning = 0;
+let humanScore = 0;
+let robotScore = 0;
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 
 function reset() {
@@ -72,8 +74,10 @@ function getResult(humanSelection) {
     console.log(result);
     if (result == "tu a gagné") {
       addHeart("Human");
+      humanScore += 1;
     } else if (result == "Tu a perdue") {
       addHeart("Robot");
+      robotScore += 1;
     }
     active(getHumanNumber, getRobotNumber);
   }
@@ -104,3 +108,5 @@ function addHeart(type) {
     heartHuman += 1;
   }
 }
+
+console.log(localStorage.getItem('name'))
