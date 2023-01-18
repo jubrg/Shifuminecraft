@@ -1,0 +1,303 @@
+body {
+  margin: 0;
+  background: #000000;
+  width: 100vw;
+  height: 134vh;
+  position: relative;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+}
+
+.bg-img {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+
+.separator {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 19px;
+  position: relative;
+}
+
+section {
+  background: #3c3c3c;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.separatorLine:nth-child(1) {
+  background: #ededed;
+  border: solid #000000;
+  border-width: 2px 0px 0px 0px;
+  height: 5px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+}
+
+.separatorLine:nth-child(2) {
+  background: #f8f7f7;
+  height: 3px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 5px;
+}
+
+.separatorLine:nth-child(3) {
+  background: #c6c6c6;
+  border: solid #000000;
+  border-width: 0px 0px 2px 0px;
+  height: 11px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 8px;
+}
+
+.items-Container {
+  display: flex;
+  flex-direction: row;
+  gap: 51px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 573px;
+  position: absolute;
+  left: calc(50% - 286px);
+  top: 5%;
+}
+
+.items-style {
+  background: url(./images/button.png);
+  background-size: contain;
+  flex-shrink: 0;
+  width: 157px;
+  height: 156px;
+  position: relative;
+  overflow: hidden;
+}
+
+.item-img {
+  width: 102px;
+  position: absolute;
+  right: 27px;
+  left: 27px;
+  bottom: 28px;
+  top: 26px;
+  overflow: hidden;
+  transition: 100ms ease-in-out, color 100ms ease-in-out;
+}
+
+.item-img:hover {
+  top: 18px;
+}
+
+.items-style:nth-child(1) .item-img {
+  background: url(./images/frame-11.png);
+  background-size: contain;
+}
+.items-style:nth-child(2) .item-img {
+  background: url(./images/frame-4.png);
+  background-size: contain;
+}
+.items-style:nth-child(3) .item-img {
+  background: url(./images/paper.png);
+  background-size: contain;
+}
+
+.bg-img {
+  filter: blur(5px);
+  max-height: 53%;
+}
+
+.skinleft {
+  width: 295px;
+  height: 528px;
+  position: absolute;
+  left: 17px;
+  top: calc(50% - 261px);
+  overflow: hidden;
+}
+
+.skinright {
+  width: 295px;
+  height: 528px;
+  position: absolute;
+  right: 17px;
+  top: calc(50% - 261px);
+  overflow: hidden;
+}
+
+.heartListLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 50px;
+  top: calc(50% - 437px);
+}
+
+.rowLeft {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.rowLeft img {
+  flex-shrink: 0;
+  width: 58px;
+  height: 50px;
+  position: relative;
+}
+
+.heartListRight {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  right: 50px;
+  top: calc(50% - 437px);
+}
+
+.rowRight {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.rowRight img {
+  flex-shrink: 0;
+  width: 58px;
+  height: 50px;
+  position: relative;
+}
+
+.leftItemHand {
+  width: 146px;
+  height: 146px;
+  position: absolute;
+  left: 215px;
+  top: calc(50% - 62px);
+  overflow: hidden;
+}
+
+.rightItemHand {
+  width: 146px;
+  height: 146px;
+  position: absolute;
+  right: 215px;
+  top: calc(50% - 62px);
+  overflow: hidden;
+}
+
+.redHeart {
+  content: url(./images/heartActive.png);
+}
+
+.BoxInfo {
+  display: none;
+  box-sizing: border-box;
+  position: absolute;
+  width: 38vw;
+  height: 254px;
+  left: calc(50% - 38vw / 2 - 10px);
+  top: calc(41% - 240px / 2 - 108.5px);
+  background: #d9d9d9;
+  border: 5px solid #000000;
+}
+
+.BoxInfo p:nth-child(1) {
+  position: relative;
+  width: 357px;
+  height: 44px;
+  left: calc(50% - 357px / 2 + 0.5px);
+  top: calc(50% - 44px / 2 - 102px);
+  font-family: "Minecraft";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 29.4138px;
+  line-height: 3px;
+  text-align: center;
+  color: #000000;
+}
+
+.BoxInfo p:nth-child(2) {
+  position: relative;
+  width: 278px;
+  height: 88px;
+  left: calc(50% - 278px / 2 + 0.5px);
+  top: calc(10% - 88px / 2 - 14px);
+  font-family: "Minecraft";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.4138px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+.BoxInfo button {
+  position: relative;
+  width: 258px;
+  height: 82px;
+  left: calc(50% - 258px / 2 - 1px);
+  top: calc(-53% - 82px / 2 + 93px);
+  background: #d9d9d9;
+  border: 3.16px solid #000000;
+  font-family: "Minecraft";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32.8966px;
+  line-height: 0px;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+}
+
+.saveButton {
+  position: absolute;
+  width: 232px;
+  height: 69px;
+  left: calc(50% - 232px / 2 - 9px);
+  top: calc(44% - 69px / 2 - 364px);
+
+  font-family: "Minecraft";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24.3517px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+  background: #d9d9d9;
+  border: 3.16px solid #000000;
+}
