@@ -71,9 +71,14 @@ h2{
         font-family: 'minecraft';
         background-image: url(../img/tutoriels-creer-un-serveur-minecraft-009_0\ 4.png);
         background-size: cover;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat; 
         color: white;
         padding-bottom: 10%;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
     }
     h1{
         text-align: center;
@@ -95,11 +100,12 @@ h2{
         border-color: #4C4B49;
         background-color: black;
         width: 46vh;
-        margin-left: 3px;
+        margin-left: 16px;
     }
     h2{
-        text-align: center;
-        margin-bottom: 30vh;
+        /* text-align: center; */
+        margin-left: -100px;
+        margin-bottom: 15vh;
         font-size: 20px;
         font-weight: 200;
     }
