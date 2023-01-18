@@ -1,71 +1,145 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body .menu{
-    display: flex;
-    background-image: url(./assets/fond.jpg);
+body{
+    font-family: 'minecraft';
+    background-image: url(../img/tutoriels-creer-un-serveur-minecraft-009_0\ 4.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100%;
-    padding-bottom: 4.4%;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+    font-size: 50px;
+    font-weight: 100;
+}
+.serveur{
+    display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    border-width: 100%;
+    border: 3px solid;
+    border-color: #4C4B49;
+    background-color: black;
+    width: 55vh;
+    margin-left: 72vh;
 }
-body .menu .button{
+h2{
+    text-align: center;
+    margin-bottom: 30vh;
+    font-size: 30px;
+    font-weight: 200;
+}
+.bouton_1 p {
     display: flex;
-    margin-right: 25%;
-    margin-left: 25%;
-    flex-direction: column;
-    align-self: center;
-    width: 40%;
+    margin-top: -6.5vh;
+    margin-left: 18vh;
+    font-size: 30px;
 }
-body .menu .button .play{
-    display: block;
-    border: solid;
-    margin-bottom: 2%;
-    background-color: grey;
-    box-shadow: inset 3px 5px rgba(1000, 1000, 1000, 0.5);
-    font-family: 'Courier New', Courier, monospace;
-}
-body .menu .button .option{
-    display: block;
-    border: solid;
-    margin-bottom: 2%;
-    background-color: grey;
-    box-shadow: inset 3px 5px rgba(1000, 1000, 1000, 0.5);
-    font-family: 'Courier New', Courier, monospace;
-}
-body .menu .button .leave{
-    display: block;
-    border:solid;
-    background-color: grey;
-    box-shadow: inset 3px 5px rgba(1000, 1000, 1000, 0.5);
-    font-family: 'Courier New', Courier, monospace;
-    margin-bottom: 11.2%;
-}
-body .menu .button .play:hover{
-    box-shadow: inset 3px 5px rgba(1000, 1000, 1000, 0.5);
-    background-color: rgba(112, 143, 196);
-}
-body .menu .button .option:hover{
-    box-shadow: inset 3px 5px rgba(1000, 1000, 1000, 0.5);
-    background-color: rgba(112, 143, 196);
-}
-body .menu .button .leave:hover{
-    box-shadow: inset 3px 5px rgba(1000, 1000, 1000, 0.5);
-    background-color: rgba(112, 143, 196);
-}
-body .menu .button input{
+.bouton_2 p {
     display: flex;
-    width: 100%;
-    justify-content: center;
-    font-size: XX-large;
+    margin-top: -6.5vh;
+    margin-left: 18vh;
+    font-size: 30px;
 }
-body .logo{
+.bouton_3 p {
     display: flex;
-    padding-top: 2%;
-    padding-bottom: 8%;
+    margin-top: -6.5vh;
+    margin-left: 12vh;
+    font-size: 30px;
 }
+.play{
+    display: flex;
+    position: absolute;
+}
+.bouton_1{
+    margin-right: 15vh;
+    margin-left: 4vh;
+}
+.bouton_2{
+    margin-right: 15vh;
+}
+.bouton_1:hover {
+    color: #C9CC86;
+}
+.bouton_2:hover {
+    color: #C9CC86;
+}
+.bouton_3:hover {
+    color: #C9CC86;
+}
+
+@media screen and ( max-width: 896px ) and (min-width: 366px) {
+    body {
+        font-family: 'minecraft';
+        background-image: url(../img/tutoriels-creer-un-serveur-minecraft-009_0\ 4.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        padding-bottom: 10%;
+    }
+    h1{
+        text-align: center;
+        margin-top: 6.5vh;
+        margin-bottom: 10vh;
+        font-size: 50px;
+        font-weight: 100;
+    }
+    .play{
+        display: flex;
+        flex-direction: column;
+        /* position: absolute; */
+        align-items: center;
+    }
+    .serveur{
+        display: flex;
+        justify-content: space-between;
+        border: 3px solid;
+        border-color: #4C4B49;
+        background-color: black;
+        width: 46vh;
+        margin-left: 3px;
+    }
+    h2{
+        text-align: center;
+        margin-bottom: 30vh;
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .bouton_1 p {
+        display: flex;
+        margin-top: -6.5vh;
+        margin-left: 18vh;
+        font-size: 30px;
+    }
+    .bouton_2 p {
+        display: flex;
+        margin-top: -6.5vh;
+        margin-left: 18vh;
+        font-size: 30px;
+    }
+    .bouton_3 p {
+        display: flex;
+        margin-top: -6.5vh;
+        margin-left: 12vh;
+        font-size: 30px;
+    }
+    .play{
+        display: flex;
+        position: absolute;
+    }
+    .bouton_1{
+        margin-right: 15vh;
+        margin-left: 4vh;
+    }
+    .bouton_2{
+        margin-right: 15vh;
+    }
+    .bouton_1:hover {
+        color: #C9CC86;
+    }
+    .bouton_2:hover {
+        color: #C9CC86;
+    }
+    .bouton_3:hover {
+        color: #C9CC86;
+    }
+    
+  }
